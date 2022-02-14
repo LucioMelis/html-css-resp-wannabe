@@ -1,0 +1,62 @@
+@media screen and (max-width:420px) {
+
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .row {
+        width: 95%;
+        margin-top: 0;
+        font-size: 12px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 100%;
+        float: none;
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        float: none;
+        width: 100%;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #lezioni{
+        background-color: #f2f2cd;
+    }
+
+    #why{
+        background-color: #f2f2cd;
+    }
+
+    img {
+        height: 80px;
+    }
+
+    #why .row img {
+        background-color: #428bca;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    h1{
+        padding-top: 10px;
+    }
+
+    #steps, #lezioni, #why{
+        padding-bottom: 10px;
+    }
+
+}
